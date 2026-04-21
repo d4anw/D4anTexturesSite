@@ -102,6 +102,10 @@ a {
 	max-width: 760px;
 }
 
+.hero-small .hero-content {
+	max-width: none;
+}
+
 .tag {
 	display: inline-block;
 	margin: 0 0 14px;
@@ -420,19 +424,6 @@ h1 {
 	color: #8f8f8f;
 	margin: 0;
 	font-size: 0.95rem;
-}
-
-.hero-showcase {
-	text-align: left;
-}
-
-.cta-section {
-	padding: 32px 0 48px;
-}
-
-.cta-section .btn {
-	padding: 12px 24px;
-	font-size: 1.05rem;
 }
 
 @media (max-width: 980px) {
