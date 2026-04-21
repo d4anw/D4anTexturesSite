@@ -99,10 +99,6 @@ a {
 }
 
 .hero-content {
-	max-width: 760px;
-}
-
-.hero-small .hero-content {
 	max-width: none;
 }
 
