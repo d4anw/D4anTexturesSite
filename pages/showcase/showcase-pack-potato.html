@@ -7,17 +7,7 @@
     <link rel="stylesheet" href="../../styling/stylesheet.css">
 </head>
 <body>
-    <header class="site-header">
-        <div class="container nav-wrap">
-            <a class="brand" href="../../index.html">D4anTextures</a>
-            <nav class="main-nav" aria-label="Main navigation">
-                <a href="../../index.html">Home</a>
-                <a class="active" href="showcase.html">Showcase</a>
-                <a href="../info/how-to-download.html">How To Download</a>
-                <a href="../info/socials.html">Socials</a>
-            </nav>
-        </div>
-    </header>
+    <div id="site-header"></div>
 
     <main>
         <section class="hero hero-small">
@@ -81,5 +71,8 @@
             <a class="btn btn-small" href="showcase.html">Back To Showcase</a>
         </div>
     </footer>
+
+    <script src="../../scripts/site-header-template.js" defer></script>
+    <script src="../../scripts/header-loader.js" defer data-header-loader data-prefix="../../" data-active="showcase"></script>
 </body>
 </html>
