@@ -422,6 +422,19 @@ h1 {
 	font-size: 0.95rem;
 }
 
+.hero-showcase {
+	text-align: left;
+}
+
+.cta-section {
+	padding: 32px 0 48px;
+}
+
+.cta-section .btn {
+	padding: 12px 24px;
+	font-size: 1.05rem;
+}
+
 @media (max-width: 980px) {
 	.card-grid {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
